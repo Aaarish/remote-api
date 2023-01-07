@@ -7,4 +7,5 @@ import java.util.HashMap;
 @Data
 public class ApiResponseWrapper {
     private HashMap<String, String> location;
+    private HashMap<String, Object> current;
 }

@@ -13,4 +13,5 @@ public class ApiResponse {
 
     private String city;
     private String country;
+    private Double temp;
 }

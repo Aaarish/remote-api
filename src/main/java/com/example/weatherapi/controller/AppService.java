@@ -45,10 +45,4 @@ public class AppService {
 
         return apiResponse;
     }
-
-//    public ApiResponseWrapper apiResponseMethod(String apiUrl){
-//        ApiResponseWrapper wrapper = restTemplate.getForObject(apiUrl, ApiResponseWrapper.class);
-//        log.info("Conneting to the remote api");
-//        return wrapper;
-//    }
 }

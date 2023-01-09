@@ -11,12 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1")
+@RequiredArgsConstructor
 public class AppController {
     private final AppService appService;
-    @Autowired
-    public AppController(AppService appService) {
-        this.appService = appService;
-    }
 
     @GetMapping("/weather")
     public ResponseEntity<ApiResponse> getWeather(@RequestParam String cityName){

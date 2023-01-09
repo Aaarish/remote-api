@@ -14,7 +14,6 @@ import java.util.Arrays;
 @Configuration
 @EnableCaching
 public class AppConfig {
-
     @Bean
     public RestTemplate restTemplate(RestTemplateBuilder builder){
         return builder

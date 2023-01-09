@@ -1,13 +1,13 @@
-package com.example.covidapi;
+package com.example.weatherapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CovidApiApplication {
+public class WeatherApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CovidApiApplication.class, args);
+		SpringApplication.run(WeatherApiApplication.class, args);
 	}
 
 }

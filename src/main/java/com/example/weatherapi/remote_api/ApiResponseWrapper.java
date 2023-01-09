@@ -1,4 +1,4 @@
-package com.example.covidapi.remote_api;
+package com.example.weatherapi.remote_api;
 
 import lombok.Data;
 

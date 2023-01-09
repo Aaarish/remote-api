@@ -1,6 +1,6 @@
-package com.example.covidapi.controller;
+package com.example.weatherapi.controller;
 
-import com.example.covidapi.remote_api.ApiResponse;
+import com.example.weatherapi.remote_api.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
